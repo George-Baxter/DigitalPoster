@@ -1,0 +1,192 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: #ffffff;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+/* Star wars text like font for legal text */
+@font-face {
+    font-family: 'StarJedi';
+    src: url('fonts/Starjedi.woff') format('woff');
+}
+/* Trajan font for credits */
+@font-face {
+    font-family: 'trajan';
+    src: url('fonts/trajanpro-regular.woff') format('woff');
+}
+.content {
+    position: relative;
+    width: 1110px;
+    height: 1250px;
+    margin: 50px auto;
+    background: url('img/img1.jpg') no-repeat center ;
+    background-size: cover;
+    border: 5px solid #000;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Star wars logo image */
+.content img {
+    height: 125px;
+    width: 400px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-top: 1000px;
+    margin-left : 285px;
+}
+/* Lucas film logo */
+.logo img{
+    position: absolute;
+    top: 0;
+    left: 150px;
+    padding: 20px;
+    margin-top: 1032px;
+    margin-left: 435px;
+    height: 50px;
+    width: 50px;
+
+}
+/* THX logo */
+.thx img{
+    position: absolute;
+    top: 0;
+    left: 750px;
+    padding: 20px;
+    margin-top: 1045px;
+    margin-left: 450px;
+    height: 25px;
+    width: 35px;
+
+}
+
+/*credits text*/
+.credits {
+    font-family: 'trajan', sans-serif;
+    text-align: left;
+    color: #ffffff;
+    position: absolute;
+    bottom: -45px; 
+    width: 30%;
+    left: 35%;
+    font-size: .75em;
+    letter-spacing: 5px;
+    line-height: .35;
+}
+.credits2 {
+    font-family: 'trajan', sans-serif;
+    text-align: left;
+    color: #ffffff;
+    position: absolute;
+    bottom: -50px; 
+    width: 30%;
+    left: 35%;
+    font-size: .75em;
+    letter-spacing: 1.65px;
+    line-height: .35;
+}
+.credits3{
+    font-family: 'trajan', sans-serif;
+    text-align: center;
+    color: #ffffff;
+    position: absolute;
+    bottom: -115px; 
+    left: 650px;
+    width: 30%;
+    font-size: .75em;
+    letter-spacing: 1.5px;
+    line-height: .35;
+}
+.credits4{
+    font-family: 'trajan', sans-serif;
+    text-align: left;
+    color: #ffffff;
+    position: absolute;
+    bottom: -75px; 
+    width: 30%;
+    left: 35%;
+    font-size: .75em;
+    letter-spacing: 3.5px;
+    line-height: .35;
+}
+.credits5{
+    font-family: 'trajan', sans-serif;
+    text-align: center;
+    color: #ffffff;
+    position: absolute;
+    bottom: -110px; 
+    left: 650px;
+    width: 30%;
+    font-size: .75em;
+    letter-spacing: 1.5px;
+    line-height: .25;
+}
+.legaltext {
+    font-family: 'StarJedi', sans-serif;
+    text-align: center;
+    color: #ffffff;
+    position: absolute;
+    bottom: -150px;
+    left: 750px;
+    width: 20%;
+    font-size: 0.1em;
+    letter-spacing: 1px;
+    line-height: 1;
+
+}
+/* small text */
+.small {
+    font-size: 0.25em;
+}
+/* fox logo */
+.foxlogo img{
+    position: absolute;
+    top: 0;
+    left: 0px;
+    padding: 20px;
+    margin-top: 1025px;
+    margin-left: 1250px;
+    height: 50px;
+    width: 65px;
+}
+/* DTS logo */
+.dts img{
+    position: absolute;
+    top: 0;
+    left: 0px;
+    padding: 20px;
+    margin-top: 1045px;
+    margin-left: 690px;
+    height: 25px;
+    width: 35px;
+}
+/* SDDS logo */
+.sdds img{
+    position: absolute;
+    top: 0;
+    left: 750px;
+    padding: 20px;
+    margin-top: 1045px;
+    margin-left: 400px;
+    height: 25px;
+    width: 35px;
+}
+/* Dolby logo */
+.dolby img{
+position: absolute;
+top: 0;
+left: 0px;
+padding: 20px;
+margin-top: 1045px;
+margin-left: 640px;
+height: 25px;
+width: 35px;
+}
