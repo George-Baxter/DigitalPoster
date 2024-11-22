@@ -1,2 +1,2 @@
 # DigitalPoster
-Assignment3 Digital poster
+Assignment 3 Digital poster
